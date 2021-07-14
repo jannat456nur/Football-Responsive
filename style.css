@@ -87,6 +87,7 @@ body{
     width: 400px;
     height: 407px;
     margin-top: 67px;
+    margin-left: 100px;
    
 }
 .bottom-sec h1{
@@ -191,6 +192,9 @@ body{
         text-align: center;
     }
     .bottom-sec-detail{
+        margin-right: 100px;
+    }
+    .bottom-sec img{
         margin-right: 100px;
     }
 }   
