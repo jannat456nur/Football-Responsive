@@ -226,6 +226,39 @@ Footer section end
 For mobile devices-
 --------------- */
 
+
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+
+    .container{
+        width: 400%;
+        height: 1000px;
+    }
+    .top-sec,.bottom-sec,.footer{
+        grid-template-columns: repeat(1,696px);
+
+    }
+    .players{
+        grid-template-columns: repeat(2,440px);
+    }
+    .player{
+        text-align: center;
+    }
+    .item{
+        width: 100%;
+        /* height: 100%; */
+         text-align: center;
+    }
+    .footer{
+    
+        margin-top: 400px;
+        text-align: center;
+    }
+    .bottom-sec-detail{
+        margin-right: 100px;
+    }
+}
+
 @media only screen and (max-width:688px) {
      .conainer{
         /* height: 1000px; */
@@ -282,33 +315,3 @@ For mobile devices-
 For tablat devices-
 --------------- */
 
-@media only screen and (min-width:688px) and (max-width:992px) {
-
-    .container{
-        width: 400%;
-        height: 1000px;
-    }
-    .top-sec,.bottom-sec,.footer{
-        grid-template-columns: repeat(1,696px);
-
-    }
-    .players{
-        grid-template-columns: repeat(2,440px);
-    }
-    .player{
-        text-align: center;
-    }
-    .item{
-        width: 100%;
-        /* height: 100%; */
-         text-align: center;
-    }
-    .footer{
-    
-        margin-top: 400px;
-        text-align: center;
-    }
-    .bottom-sec-detail{
-        margin-right: 100px;
-    }
-}
