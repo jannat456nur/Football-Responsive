@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
 
 body{
@@ -57,7 +58,7 @@ body{
     /* padding-right:100px ; */
     border: 1px solid  #f3a514;
     background-color:#f3a514;
-    /* padding: 15px; */
+    padding: 5px;
     margin-left: 182px;
     /* margin-right: 296px; */
 }
@@ -86,6 +87,7 @@ body{
     width: 400px;
     height: 407px;
     margin-top: 67px;
+   
 }
 .bottom-sec h1{
     color:  #000000;
@@ -98,7 +100,7 @@ body{
     margin-top: 100px;
 }
 .bottom-sec p{
-    font-size: 10px;
+    font-size: 11px;
     margin-left: 182px;
     margin-right: 66px;
 }
@@ -135,7 +137,7 @@ body{
 }
 
 
-@media only screen and (max-width:688px) {
+/* @media only screen and (max-width:688px) {
     .conainer{
       
     }
@@ -149,5 +151,77 @@ body{
     .item{
         width: 100%;
         text-align: center;
+    }
+} */
+
+ 
+@media only screen and (max-width:688px) {
+     .conainer{
+        /* height: 1000px; */
+        text-align: center;
+       
+        background-color: rgb(13, 4, 146);
+    } 
+    .top-sec{
+        width: 200%;
+        height: 100%;
+    }
+    .top-sec img{
+        margin-left: 200px;
+    }
+    .top-sec,.bottom-sec,.footer{
+        grid-template-columns: repeat(1,696px);
+
+    }
+    .players{
+        grid-template-columns: repeat(1,440px);
+    }
+    .player{
+        text-align: center;
+    }
+  
+    .item{
+        width: 100%;
+        /* height: 100%; */
+         text-align: center;
+    }
+    .footer{
+    
+        margin-top: 400px;
+        text-align: center;
+    }
+    .bottom-sec-detail{
+        margin-right: 100px;
+    }
+}   
+/* tablat divices */
+@media only screen and (min-width:688px) and (max-width:992px) {
+
+    .container{
+        width: 100%;
+        height: 1000px;
+    }
+    .top-sec,.bottom-sec,.footer{
+        grid-template-columns: repeat(1,696px);
+
+    }
+    .players{
+        grid-template-columns: repeat(2,440px);
+    }
+    .player{
+        text-align: center;
+    }
+    .item{
+        width: 100%;
+        /* height: 100%; */
+         text-align: center;
+    }
+    .footer{
+    
+        margin-top: 400px;
+        text-align: center;
+    }
+    .bottom-sec-detail{
+        margin-right: 100px;
     }
 }
