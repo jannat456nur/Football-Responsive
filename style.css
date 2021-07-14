@@ -4,19 +4,20 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+
 .container{
     height: 1000px;
     /* width: 1200px */
-    background-color: blue;
+    /* background-color: blue; */
     display: grid;
     grid-template-columns: repeat(2,696px);
     
 
 }
-.top-sec,.bottom-sec{
+/* .top-sec,.bottom-sec{
     width: 50%;
     
-}
+} */
 .top-sec img{
     width: 556.01px;
     height: 438px;
@@ -25,37 +26,29 @@ body{
     margin-right: 140px;
 }
 .top-sec h1{
-    color:  #FFFFFF;
+    color:  #000000;
 
-    background-color: blue;
+    /* background-color: blue; */
     margin-top: 207px;
     margin-left: 156px;
     margin-bottom: 240px;
+    margin-right: 102px;
     font-size: 64px;
     text-align: justify;
     font-weight: 700;
 
 }
-.bottom-sec h1{
-    color:  #FFFFFF;
 
-    background-color: blue;
-    /* margin-top: 207px;
-    margin-left: 156px;
-    margin-bottom: 240px; */
-    font-size: 64px;
-    text-align: justify;
-    font-weight: 700;
-
-}
 .watch-live{
     text-decoration: none;
     color: #FFFFFF;
     margin-left: 156px;
+    margin-right: 419px;
     margin-top: 27px;
     margin-bottom: 169px;
-    border: 1px solid  #E02C6D;
-    background-color: #E02C6D;
+    border: 1px solid  #f3a514;
+    background-color:#f3a514;
+    padding: 15px;
 
   
 
@@ -67,8 +60,11 @@ body{
     margin-top: 27px;
     margin-bottom: 169px; */
     /* padding-right:100px ; */
-    border: 1px solid  #E02C6D;
-    background-color: #E02C6D;
+    border: 1px solid  #f3a514;
+    background-color:#f3a514;
+    padding: 15px;
+    margin-left: 182px;
+    margin-right: 296px;
 
 
 }
@@ -81,7 +77,10 @@ body{
 
 .players{
     display: grid;
-    grid-template-columns: repeat(3,440px); 
+    grid-template-columns: repeat(3,440px);
+    margin-top: 70px; 
+    margin-right: 210px;
+    margin-left: 180px;
     
    
 }
@@ -105,8 +104,25 @@ body{
     top: 2889px; */
     margin-top: 67px;
 }
+.bottom-sec h1{
+    color:  #000000;
+
+    /* background-color: blue; */
+    /* margin-top: 207px;
+    margin-left: 156px;
+    margin-bottom: 240px; */
+    font-size: 64px;
+    text-align: justify;
+    font-weight: 700;
+    margin-left: 182px;
+    margin-right: 66px;
+    
+
+}
 .bottom-sec p{
     font-size: 16px;
+    margin-left: 182px;
+    margin-right: 66px;
 }
 .logo img{
     width: 227.82px;
