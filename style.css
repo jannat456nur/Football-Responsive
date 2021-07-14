@@ -7,10 +7,13 @@ body{
     width: 100vw;
     overflow-x: hidden;
 }
+/* -----------
+Top section start
+-------------- */
 
 .top-sec{
     background-color: rgb(13, 4, 146);
-    /* width: 1690px; */
+    
 }
 .top-sec,.bottom-sec{
     height: 600px;
@@ -28,10 +31,8 @@ body{
     color:  #000000;
     margin-top: 207px;
     margin-left: 156px;
-    /* margin-bottom: 240px; */
     margin-right: 102px;
     font-size: 40px;
-    /* text-align: justify; */
     font-weight: 700;
 
 }
@@ -49,6 +50,10 @@ body{
   
 
 }
+/* -----------
+Top section end
+-------------- */
+
 .watch-now{
     text-decoration: none;
     color: #FFFFFF;
@@ -60,13 +65,16 @@ body{
     background-color:#f3a514;
     padding: 5px;
     margin-left: 182px;
-    /* margin-right: 296px; */
+    
 }
+/* -----------
+Middle section start
+-------------- */
+
 .players{
     display: grid;
     grid-template-columns: repeat(3,300px);
     margin-top: 70px; 
-    /* margin-right: 210px; */
     margin-left: 80px;
       
 }
@@ -83,6 +91,14 @@ body{
     margin: 30px ;
 
 }
+
+/* -----------
+Middle section end
+-------------- */
+
+/* -----------
+Bottom section start
+-------------- */
 .bottom-sec img{
     width: 400px;
     height: 407px;
@@ -121,12 +137,12 @@ body{
 
 
 }
-.bottom-sec:hover .onother {
+.bottom-sec:hover .bonus {
     display: block;
     background-color: rgba(216, 191, 216, 0.4);
 }
 
-.onother {
+.bonus {
     position: absolute;
     width: 350px;
     margin-top: 100px;
@@ -158,6 +174,15 @@ body{
 .box:hover .tooltip {
     visibility: visible;
 }
+
+/* -----------
+Bottom section end
+-------------- */
+
+/* -----------
+footer section start
+-------------- */
+
 .footer{
     width: 100%;
     height: 200px;
@@ -193,6 +218,14 @@ body{
     margin-right: 123px;
     
 } 
+/* -----------
+Footer section end
+-------------- */
+
+/* ---------------
+For mobile devices-
+--------------- */
+
 @media only screen and (max-width:688px) {
      .conainer{
         /* height: 1000px; */
@@ -244,7 +277,11 @@ body{
         margin-left: 200px;
     }
 }   
-/* tablat divices */
+
+/* ---------------
+For tablat devices-
+--------------- */
+
 @media only screen and (min-width:688px) and (max-width:992px) {
 
     .container{
