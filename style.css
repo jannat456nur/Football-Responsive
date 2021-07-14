@@ -6,10 +6,10 @@ body{
 
 .container{
     height: 1000px;
-    /* width: 100%; */
+    /* width: 1200px */
     background-color: blue;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2,696px);
     
 
 }
@@ -81,14 +81,7 @@ body{
 
 .players{
     display: grid;
-    grid-template-columns: repeat(3,1fr); 
-  
-    /* align-items: center;
-     /* display: flex; 
-    flex-direction: row;
-     align-items: flex-start;  */
-    /* width: 50%; */
-    /* height: 400px; */
+    grid-template-columns: repeat(3,440px); 
     
    
 }
@@ -114,4 +107,31 @@ body{
 }
 .bottom-sec p{
     font-size: 16px;
+}
+.logo img{
+    width: 227.82px;
+    height: 67.42px;
+}
+.footer{
+    width: 483.87px;
+    height: 213px;
+    text-align: center;
+    margin-left: 483.13px;
+    margin-right: 475px;
+    margin-bottom: 63px;
+    margin-top: 158px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.icon{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:156px ;
+    margin-right: 156px;
+}
+.logo-des{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 123px;
+    margin-right: 123px;
 }
